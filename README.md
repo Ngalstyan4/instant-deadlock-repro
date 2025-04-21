@@ -1,4 +1,13 @@
-to reproduce:
+To reproduce:
+
+add instantdb DB credentials in `.env`:
+
+```
+INSTANT_APP_ID=
+INSTANT_ADMIN_TOKEN=
+```
+
+Install dependencies, push schema and run tests
 
 ```
 pnpm i
