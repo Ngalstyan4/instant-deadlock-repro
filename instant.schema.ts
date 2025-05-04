@@ -93,6 +93,7 @@ const _schema = i.schema({
     costs: i.entity({
       internalCost: i.number(),
       startOfMonth: i.date().indexed(),
+      startOfMonthUnindexed: i.date(),
     }),
 
     costs2: i.entity({
